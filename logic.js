@@ -190,3 +190,10 @@
 //     console.log ("The windows need a good cleaning, get to it!")
 // }
 
+// let windowsCleaned = true;
+
+// if (windowsCleaned) {
+//     console.log("The windows are sparkling clean, nicely done!");
+// } else {
+//     console.log ("The windows need a good cleaning, get to it!")
+// }
