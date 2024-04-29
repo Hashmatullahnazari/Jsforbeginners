@@ -195,5 +195,39 @@
 // if (windowsCleaned) {
 //     console.log("The windows are sparkling clean, nicely done!");
 // } else {
-//     console.log ("The windows need a good cleaning, get to it!")
+//     console.log ("The windows need a good cleaning, get to it!");
 // }
+
+
+// let bedsheetsChanged = false;
+
+// if (bedsheetsChanged) {
+//     console.log("The fresh bedsheets feel so nice!");
+// } else {
+//     console.log("Time to strip the bed and put on clean sheets.");
+// }
+
+// let bedsheetsChanged = true;
+
+// if (bedsheetsChanged) {
+//     console.log("The fresh bedsheets feel so nice!");
+// } else {
+//     console.log("Time to strip the bed and put on clean sheets.");
+// }
+
+// let pantryOrganized = false;
+
+// if (pantryOrganized) {
+//     console.log("The pantry is neat and tidy, great work!");
+// } else {
+//     console.log("The pantry needs some organization, get to it!");
+// }
+
+// let pantryOrganized = true;
+
+// if (pantryOrganized) {
+//     console.log("The pantry is neat and tidy, great work!")
+// } else {
+//     console.log("The pantry needs some organization, fet to it!")
+// }
+
