@@ -231,3 +231,52 @@
 //     console.log("The pantry needs some organization, fet to it!")
 // }
 
+
+// let ovenCleaned = false;
+
+// if (ovenCleaned) {
+//     console.log("The oven is sparkling clean, nice job!");
+// } else {
+//     console.log("The oven needs a good cleaning, don't forget!");
+// }
+
+// let ovenCleaned = true;
+
+// if (ovenCleaned) {
+//     console.log("The oven is sprakling clean, nice job!");
+// } else {
+//     console.log("The oven nees a good cleaning, don't forget!");
+// }
+
+// let fridgeClean = false;
+
+// if (fridgeClean) {
+//     console.log("The fridge is clean and organized, well done!");
+// } else {
+//     console.log("Time to tackle cleaning out the fridge.!");
+// }
+
+// let fridgeClean = true;
+
+// if (fridgeClean) {
+//     console.log("The fridge is clean and organized, well done!");
+// } else {
+//     console.log("Time to tackle claining out fridge!");
+// }
+
+// let microwaveClean = false;
+
+// if (microwaveClean) {
+//     console.log("The microwave is spotless, great work!");
+// } else {
+//     console.log("The microwave needs a good cleaning, get to it!");
+// }
+
+// let microwaveClean = true;
+
+// if (microwaveClean) {
+//     console.log("The microwave is spotless, great work!");
+// } else {
+//     console.log("The microwave needs a good cleaning, get to it!");
+// }
+
