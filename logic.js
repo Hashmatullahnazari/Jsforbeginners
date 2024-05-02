@@ -280,3 +280,79 @@
 //     console.log("The microwave needs a good cleaning, get to it!");
 // }
 
+// let countersClean = false;
+
+// if (countersClean) {
+//     console.log("The countertops look great, nice and clean!");
+// } else {
+//     console.log("Time to wipe down and clean the counters.");
+// }
+
+
+// let countersClean = true;
+
+// if (countersClean) {
+//     console.log("The microwave is spotless, great work!");
+// } else {
+//     console.log("The microwave needs a good cleaning, get to it!");
+// }
+
+
+// let stovetopClean = false;
+
+// if (stovetopClean) {
+//     console.log("The stovetop is sparkling clean, well done!");
+// } else {
+//     console.log("The stovetop needs some attention, get cleaning!");
+// }
+
+// let stovetopClean = true;
+
+// if (stovetopClean) {
+//     console.log("The stovetop is sparkling clean, well done!");
+// } else {
+//     console.log("The stovetop needs some attention, get cleaning!");
+// }
+
+// let sinksClean = false;
+
+// if (sinksClean) {
+//     console.log("The sinks are spotless, great job!");
+// } else {
+//     console.log("Time to five the sinks a good cleaning!");
+// }
+
+
+// let sinksClean = true;
+
+// if (sinksClean) {
+//     console.log("The sinks are spotless, great job!");
+// } else {
+//     console.log("Time to give the sinks a good cleaning");
+
+// }
+
+// let mirrorsCleaned = false;
+
+// if (mirrorsCleaned) {
+//     console.log("The mirrors are steak-free and shiny, nicely done!");
+// } else {
+//     console.log("The mirrors need a good cleaning, don't forget!");
+// }
+
+// let fansCleaned = false;
+
+// if (fansCleaned) {
+//     console.log("The ceiling fans are dust-free, great work!");
+// } else {
+//     console.log("Time to grab the duster and clean the ceiling fans!");
+// }
+
+
+// let fansCleaned = true;
+
+// if (fansCleaned) {
+//     console.log("The ceiling fans are dust-free great work!");
+// } else {
+//     console.log("Time to grab the duster and clean the ceiling fans");
+// }
