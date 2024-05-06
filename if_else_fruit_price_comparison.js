@@ -111,3 +111,72 @@ else {
     console.log("Plums and cherries have the same price.");
 }
  */
+
+
+// let limePrice = 0.75;
+// let lemonPrice = 1.25;
+
+// if (limePrice > lemonPrice) {
+//     console.log("Limes are more expensive than lemons");
+// } else if (limePrice < lemonPrice){
+//     console.log("Lemons are more expensive then limes");
+// } else {
+//     console.log("Limes and lemons have the same price.");
+// }
+
+// let pomegranatePrice = 4.50;
+// let figPrice = 3.75;
+
+// if (pomegranatePrice > figPrice) {
+// console.log("Pomegranate are more expensive than figs.");
+// } else if (pomegranatePrice < figPrice) {
+//     console.log("fig are more expensive than pomegranate");
+// } else {
+//     console.log("Pomegranates and figs are the same price.");
+// }
+
+// let avocadoPrice = 2.99;
+// let coconutPrice = 3.50;
+
+// if (avocadoPrice > coconutPrice) {
+//     console.log("Avocados are more expensive than coconuts.");
+// } else if (avocadoPrice < coconutPrice) {
+//     console.log("Coconuts are more expensivve than avacado.");
+// } else {
+//     console.log("Avacados and coconuts are the same price.");
+// }
+
+// let pearPrice = 2.25;
+// let persimmonePrice = 3.75;
+
+// if (pearPrice > persimmonePrice) {
+//     console.log("Pears are more expensive than persimmones.");
+    
+// } else if (pearPrice < persimmonePrice){
+//     console.log("Persimmones are more expensive than pears.");
+// } else {
+//     console.log("Pears and persimmones are the same price");
+// }
+
+// let dragonfruitPrice = 4.99;
+// let passionfruitPrice = 3.50;
+
+// if (dragonfruitPrice > passionfruitPrice) {
+//     console.log("Dragonfruit is more expensive than passionfruit");
+// } else if (dragonfruitPrice < passionfruitPrice){
+//     console.log("passionfruit is more expensive than dragonfruit");
+// } else{
+//     console.log("Passiofruit and dragonfruit are the same price");
+// }
+
+
+// let jackfruitPrice = 5.75;
+// let durianPrice = 7.99;
+
+// if (jackfruitPrice > durianPrice) {
+//     console.log("Jacfruits is moe expensive than durian");
+// } else if (jackfruitPrice < durianPrice){
+//     console.log("Durian is more expensive tha jackfruit");
+// } else {
+//     console.log("Jackfruit and durian have the same price");
+// }
