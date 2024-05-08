@@ -180,3 +180,98 @@ else {
 // } else {
 //     console.log("Jackfruit and durian have the same price");
 // }
+
+
+// let guavaPrice = 2.50;
+// let starfruitPrice = 3.25;
+
+// if (guavaPrice > starfruitPrice) {
+//     console.log("Guava is more expensive than starfruit");
+// } else if (guavaPrice < starfruitPrice) {
+//     console.log("Starfruit is more expensive than Guava");
+// } else {
+//     console.log("Guava and starfruit have the same price");
+// }
+
+// let rambutanPrice = 3.75;
+// let lycheePrice = 4.50;
+
+// if (rambutanPrice > lycheePrice) {
+//     console.log("Rambutan is more expensive than lychee.");
+// } else if (rambutanPrice < lycheePrice) {
+//     console.log("Lychee is more expensive than rambutan.");
+// } else {
+//     console.log("Rambutan and lychee have the same price.");
+// }
+
+
+// let loganPrice = 2.99;
+// let langsatPrice = 3.75;
+
+// if (loganPrice > langsatPrice) {
+//     console.log("Logan is more expensive than langsat.")
+// } else if (loganPrice < langsatPrice) {
+//     console.log("Langsat is more expensive than Logan.");
+// } else {
+//     console.log("Logan and langsat have the same price.");
+// }
+
+
+// let tamaranPrice = 4.25;
+// let carambolaPrice = 3.50;
+
+// if (tamaranPrice > carambolaPrice) {
+//     console.log ("Tamarind is more expensive than carambola.")
+// } else if (tamaranPrice < carambolaPrice) {
+//     console.log("Carambola is more expensive than tamarinds");
+// } else {
+// console.log("Tamarinds and carambola are the same price");
+// }
+
+// let cherimovaPrice = 5.99;
+// let sapodillaPrice = 4.75;
+
+// if (cherimovaPrice > sapodillaPrice) {
+//     console.log("Cherimova is more expensive than spodilla.");
+// } else if (cherimovaPrice < sapodillaPrice){
+//     console.log("Sapodilla is more expensive than cherimova.");
+// } else {
+//     console.log("Cherimova and spodilla are the same price.");
+// }
+
+// let breadfruitPrice = 3.25;
+// let jackfruitPrice = 5.75;
+
+ 
+// if (breadfruitPrice > jackfruitPrice) {
+//     console.log("Breadfruit is more expansive than jackfruit.");
+// } else if (breadfruitPrice < jackfruitPrice) {
+//     console.log("Jackfruit is more expensive than breadfruit.");
+// } else {
+//     console.log("Breadfruit and jackfruit are the same price.");
+// }
+
+// let custardApplePrice = 4.50;
+// let soursopPrice = 6.25;
+
+// if (custardApplePrice > soursopPrice) {
+//     console.log("custard apple is more expensive than soursop.");
+// } else if (custardApplePrice < soursopPrice) {
+//     console.log("Soursop is more expensive than custard apple.");
+// } else {
+//     console.log("Custard apple and soursop hace the same price.");
+// }
+
+
+// let feijoaPrice = 3.75;
+// let jabuticabaPrice = 5.50;
+
+// if (feijoaPrice > jabuticabaPrice) {
+//     console.log("Feijoa is more expensive than jabuticaba");
+// } else if (feijoaPrice < jabuticabaPrice){
+//     console.log("Jabuticaba is more expensive than feijoa");
+// } else {
+//     console.log("feijoa and jabuticaba hace the same price");
+// }
+
+
