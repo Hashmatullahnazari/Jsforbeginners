@@ -51,8 +51,9 @@
 // } else if (hardenJerseyPrice < kyrieJerseyPrice) {
 //   console.log("Kyrie's jersey is more expansive than Harden's jersey.");
 // } else {
-//   console.log("James and kyrie's jersey have the same price.");
+//   console.log("James and kyrie's jerseys have the same price.");
 // }
+
 
 // let paulJerseyPrice = 89.99;
 // let kawhiJerseyPrice = 94.99;
@@ -62,5 +63,53 @@
 // } else if (paulJerseyPrice < kawhiJerseyPrice) {
 //   console.log("Kawhi's jersey is more expensive thank Paul's jersey.");
 // } else {
-//   console.log("Paul and Kawhi's jersey have the same price.");
+//   console.log("Paul and Kawhi's jerseys have the same price.");
+// }
+
+
+// let anthonyJerseyPrice = 114.99;
+// let giannisJerseyPrice = 119.99;
+
+// if (anthonyJerseyPrice > giannisJerseyPrice) {
+//     console.log("Anthony's jersey is more expensive than giannis' jersey.");
+// } else if (anthonyJerseyPrice < giannisJerseyPrice) {
+//     console.log("Giannis' jersey is more expensive than Anthony's jersey.");
+// } else {
+//     console.log("Anthony and Giannis' jerseys hvae the same price.");
+// }
+
+
+// let nikolaJerseyPrice = 104.99;
+// let embiidJerseyPrice = 99.99;
+
+// if (nikolaJerseyPrice > embiidJerseyPrice) {
+//   console.log("Nikola's jersey price is more expansive than Joel's jersey price.");
+// } else if (nikolaJerseyPrice < embiidJerseyPrice) {
+//   console.log("Joel's jersey price is more expensive than Nikola's jersey price.");
+// } else {
+//   console.log("Nikola and Joel's jerseys have the same price.");
+// }
+
+
+// let kevinJerseyPrice = 129.99;
+// let kyrieJerseyPrice2 = 119.99;
+
+// if (kevinJerseyPrice > kyrieJerseyPrice2) {
+//   console.log("Kevin's jersey price is more expensive thank Kyrie's jersey price.");
+// } else if (kevinJerseyPrice < kyrieJerseyPrice2) {
+//   console.log("Kyrie's jersey price is more expensive than Kevin's jersey price.");
+// } else {
+//   console.log("Kevin and Kyrie's jereseys have the same price.");
+// }
+
+
+// let bamJerseyPrice = 94.99;
+// let jimmyJerseyPrice = 99.99;
+
+// if (bamJerseyPrice > jimmyJerseyPrice) {
+//   console.log("Bam's jersey is more expensive than jimmy's jersey price.");
+// } else if (bamJerseyPrice < jimmyJerseyPrice) {
+//   console.log("jimmy's jersey is more expensive than bam's jersey price.");
+// } else {
+//   console.log("bam's and jimmy's have the same jersey price.");
 // }
