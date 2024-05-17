@@ -224,3 +224,73 @@
 // } else {
 //   console.log("benedict and black jersey are the same price.");
 // }
+
+
+// let paulGeorgeSalary = 39344900;
+// let kawhinLeonardSalary = 48078712;
+
+// function compareSalaries(salary1, salary2) {
+//   if (salary1 > salary2) {
+//     console.log(`Player 1's salary of $${salary1} is higher than Player 2's salary of $${salary2}.`);
+//   } else if (salary1 < salary2) {
+//     console.log(`Player 2's salary of $${salary2} is higher than Player 1's salary of $${salary1}.`);
+//   } else {
+//     console.log(`Player 1 and Player 2 have the same salary of $${salary1}.`);
+//   }
+// }
+
+// compareSalaries(paulGeorgeSalary, kawhinLeonardSalary);
+
+// function compareSalaries() {
+//     // Prompt the user to enter Player 1's salary
+//     const salary1 = parseFloat(prompt("Enter Player 1's salary:"));
+  
+//     // Prompt the user to enter Player 2's salary
+//     const salary2 = parseFloat(prompt("Enter Player 2's salary:"));
+  
+//     // Check if the user entered valid numbers
+//     if (isNaN(salary1) || isNaN(salary2)) {
+//       alert("Invalid input. Please enter valid numbers for the salaries.");
+//       return;
+//     }
+  
+//     // Compare the salaries
+//     if (salary1 > salary2) {
+//       console.log(`Player 1's salary of $${salary1} is higher than Player 2's salary of $${salary2}.`);
+//     } else if (salary1 < salary2) {
+//       console.log(`Player 2's salary of $${salary2} is higher than Player 1's salary of $${salary1}.`);
+//     } else {
+//       console.log(`Player 1 and Player 2 have the same salary of $${salary1}.`);
+//     }
+//   }
+  
+//   // Call the compareSalaries function
+//   compareSalaries();
+  
+
+// function compareSalaries() {
+//     // Prompt the user to enter Player 1's salary
+//     const salary1 = parseFloat(prompt("Enter Player 1's salary:"));
+  
+//     // Prompt the user to enter Player 2's salary
+//     const salary2 = parseFloat(prompt("Enter Player 2's salary:"));
+  
+//     // Check if the user entered valid numbers
+//     if (isNaN(salary1) || isNaN(salary2)) {
+//       alert("Invalid input. Please enter valid numbers for the salaries.");
+//       return;
+//     }
+  
+//     // Compare the salaries
+//     if (salary1 > salary2) {
+//       alert(`Player 1's salary of $${salary1} is higher than Player 2's salary of $${salary2}.`);
+//     } else if (salary1 < salary2) {
+//       alert(`Player 2's salary of $${salary2} is higher than Player 1's salary of $${salary1}.`);
+//     } else {
+//       alert(`Player 1 and Player 2 have the same salary of $${salary1}.`);
+//     }
+//   }
+  
+//   // Call the compareSalaries function
+//   compareSalaries();
+  

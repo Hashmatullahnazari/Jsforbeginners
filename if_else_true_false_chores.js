@@ -356,3 +356,45 @@
 // } else {
 //     console.log("Time to grab the duster and clean the ceiling fans");
 // }
+
+
+
+
+// // Define a function to check if the laundry is done
+// function checkLaundry() {
+//   // Prompt the user to enter the laundry status
+//   const laundryStatus = prompt("Is the laundry done? (yes/no)");
+
+//   // Check the user's input
+//   if (laundryStatus.toLowerCase() === "yes") {
+//     // If the user entered "yes", print the message "Great, the laundry is all done"
+//     console.log("Great, the laundry is all done");
+//   } else {
+//     // If the user entered anything else, print the message "Time to start the Laundry"
+//     console.log("Time to start the Laundry");
+//   }
+
+// }
+
+// // Call the 'checkLaundry' function
+// checkLaundry();
+
+
+// // Define a function to check if the laundry is done
+// function checkLaundry() {
+//   // Prompt the user to enter the laundry status
+//   const laundryStatus = prompt("Is the laundry done? (yes/no)");
+
+//   // Check the user's input
+//   if (laundryStatus.toLowerCase() === "yes") {
+//     // If the user entered "yes", show an alert with the message "Great, the laundry is all done"
+//     alert("Great, the laundry is all done");
+//   } else {
+//     // If the user entered anything else, show an alert with the message "Time to start the Laundry"
+//     alert("Time to start the Laundry");
+//   }
+// }
+
+// // Call the 'checkLaundry' function
+// checkLaundry();
+
