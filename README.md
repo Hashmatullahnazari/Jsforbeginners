@@ -12,4 +12,7 @@ if_else_nba_player_jersey_price_comparison.js: For sports enthusiasts, this exam
 
 if_else_true_false_chores.js: This example takes a more direct approach, using true or false conditions to determine whether specific chores should be completed or not, reinforcing your understanding of conditional statements.
 
+if_else_equality_ingredient_availability.js: This example focuses on managing ingredient availability for a recipe. By using if-else statements, you can determine whether you have all the necessary ingredients to cook a particular dish. This scenario helps you practice conditional logic while also ensuring you have everything you need to prepare your favorite meals.
+
+
 So if you're new to programming and looking for an accessible entry point, consider diving into these chore-focused examples. Not only will you pick up valuable coding knowledge, but you might also find yourself a bit more organized and productive around the house. It's a win-win! As you progress through these examples, you'll not only gain valuable coding knowledge but also find yourself becoming more organized and productive around the house. Ready to get started? Dive into the 20 chore-tracking scenarios below and take the first steps towards becoming a JavaScript pro.
