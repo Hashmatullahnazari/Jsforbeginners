@@ -96,3 +96,54 @@
 // } else {
 //     console.log("We don't have broccoli. Let's make something else.");
 // }
+
+// let ingredient = "carrots";
+
+// if (ingredient == "carrots") {
+//     console.log("Let's make some carrot cake!");
+// } else {
+//     console.log("We don't have carrots. Let's make something else.");
+// }
+
+//  let ingredient = "potatoes";
+
+//  if (ingredient == "potatoes") {
+//     console.log("Let's make some baked potatoes!");
+//  } else {
+//     console.log("We don't have potatoes. Let's make something else.");
+//  }
+
+// let ingredient = "spinach";
+
+// if (ingredient == "spinach") {
+//     console.log("Let's make some spinach artichoke dip!");
+// } else {
+//     console.log("We don't have spinach. Let's make something else.");
+// }
+
+
+// let ingredient = "bananas";
+
+// if (ingredient == "bananas") {
+//     console.log("Let's make banana bread!");
+// } else {
+//     console.log("We don't have bananas. Let's make something else.");
+// }
+
+
+// let ingredient = "blueberries";
+
+// if (ingredient == "blueberries") {
+//     console.log("Let's make some blueberry muffins!");
+// } else {
+//     console.log("We don't have blueberries. Let's make something else.");
+// }
+
+// let ingredient = "strawberries";
+
+// if (ingredient == "strawberries") {
+//     console.log("Let's make some strawberry shortcake!");
+// } else {
+//     console.log("We don't have strawberries. Let's make something else.");
+// }
+
