@@ -74,3 +74,49 @@
 // {
 //     console.log("It's not Friday, so no need to clean the floors today.");
 // }
+
+
+// const currentDay = new Date().getDay(); 
+// if (currentDay === 6) { //Saturday
+
+//     let trashTaken = false;
+
+//     if (trashTaken) {
+//         console.log("The trash has been taken out!");
+//     } else {
+//         console.log("Remember to take out the trash today!");
+//     }
+    
+// }else {
+//     console.log("It's not Saturday, so no need to take out the trash today.");
+// }
+
+// const currentDay = new Date().getDate();
+
+// if (currentDay === 0) { //Sunday
+
+//     let bathroomClean = false;
+    
+// if (bathroomClean) {
+//     console.log("The bathroom is spotless!");
+// } else {
+//     console.log("Time to clean the bathroom");
+// }
+    
+// } else {
+//     console.log("It's not Sunday, so no need to clean the bathroom today.");
+// }
+
+
+// const currentDay = new Date().getDay();
+
+// if (currentDay === 1) {//Monay
+//     let plantsWatered = false;
+//     if (plantsWatered) {
+//         console.log("The Plants are well-hydrated!");
+//     } else {
+//         console.log("Don't forget to water the plants today!");
+//     }
+// } else {
+//     console.log("It's not Monday, so no need to water the plants today.");
+// }
