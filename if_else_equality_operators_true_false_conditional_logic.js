@@ -30,7 +30,7 @@
 
 // const currentDay = new Date().getDay();
 
-// if (currentDay === 3) { //Wednesda
+// if (currentDay === 3) { //Wednesday
     
 //     let vacuumed = false;
 
@@ -42,4 +42,35 @@
 
 // } else {
 //     console.log("It's not Wednesday, so no need to vacuum today.");
+// }
+
+
+// const currentDay = new Date().getDay();
+
+// if (currentDay === 4) { //Thursday
+
+//     let dusted = false;
+//     if (dusted) {
+//     console.log("The surfaces are dust-free");
+// } else {
+//     console.log("Time to grab the duster and dust the surfaces!");
+// } 
+// } else {
+//     console.log("It's not Thursday, so no need to dust today.");
+// }
+
+// const currentDay = new Date().getDay();
+
+// if (currentDay === 5) {
+    
+//     let floorsCleaned = false;
+//     if (floorsCleaned) {
+//         console.log("The floors are sparkling clean!");
+//     } else {
+//         console.log("Don't forget to sweep and mop the floors today!");
+//     } 
+    
+// } else 
+// {
+//     console.log("It's not Friday, so no need to clean the floors today.");
 // }
