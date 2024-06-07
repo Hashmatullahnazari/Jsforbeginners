@@ -120,3 +120,47 @@
 // } else {
 //     console.log("It's not Monday, so no need to water the plants today.");
 // }
+
+// const currentDay = new Date().getDay();
+
+// if (currentDay == 2) {
+//     let closetOrganized = false;
+//     if (closetOrganized) {
+//         console.log("The closet is neat and tidy!");
+//     } else {
+//         console.log("Time to oorganize the closet!");
+//     }
+// }else {
+//     console.log("It's not Tuesday, so no need to organize the closet today.");
+// }
+
+
+// const currentDay = new Date().getDay();
+
+// if (currentDay === 3) {
+//     let windowsCleaned = false;
+
+//     if (windowsCleaned) {
+//     console.log("The windows are sparkling clean!");
+// } else {
+//     console.log("Don't forget to clean the windows today!");
+// }
+// }
+
+// else {
+//     console.log("It's not Wednesday, so no need to clean the windows today.");
+// }
+
+// const currentDay = new Date().getDay();
+
+// if(currentDay === 4){ //Thursday
+//     let bedsheetChanged = false;
+//    if (bedsheetChanged) {
+//      console.log("The fresh bedsheets feel so nice!");
+//    } else {
+//     console.log("Time to change the bedsheets!");
+//    }
+// } else {
+//     console.log("It's not Thrusday, so no need to change the bedsheets today.");
+// }
+
