@@ -164,3 +164,43 @@
 //     console.log("It's not Thrusday, so no need to change the bedsheets today.");
 // }
 
+// const currentDay = new Date().getDay();
+
+// if (currentDay === 5){//Friday
+//     let pantryOrganized = false;
+
+// if (pantryOrganized) {
+//     console.log("The Pantry is well-organized!");
+// } else {
+//     console.log("Don't forget to orfanized the pantry today!");
+// }
+// }else {
+//     console.log("It's not Fiday, so no need to organize the pantry today.");
+// }
+
+// const currentDay = new Date().getDay();
+
+// if (currentDay === 6){//Saturday
+//     let ovenCleaned = false;
+//     if (ovenCleaned) {
+//         console.log("The oven is Sparkling clean!.");
+//     } else {
+//         console.log("Time to clean the oven!");
+//     }
+// } else {
+//     console.log("It's not Saturday, so no need to clean the oven today.");
+// }
+
+// const currentDay = new Date().getDay();
+
+// if (currentDay === 0) { //Sunday
+//     let fridgeClean = false;
+//     if (fridgeClean) {
+//         console.log("The fridge is clean and organized!");
+//     } else {
+//         console.log("Don't forget to clean the refrigerator today!");
+//     }
+// }else {
+//     console.log("It's not sunday, so no need to clean the refrigerator today.");
+// }
+

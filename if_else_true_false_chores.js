@@ -398,3 +398,79 @@
 // // Call the 'checkLaundry' function
 // checkLaundry();
 
+let laundryDone = true;
+let clothesFolded = false;
+let clothesPutAway = false;
+
+if (laundryDone && clothesFolded && clothesPutAway){
+    console.log("Great, the laundry process is completey done");
+} else if (clothesFolded && clothesPutAway){
+    console.log("Laundry is done and folded. Time to put the clothes away!");
+} else if (laundryDone){
+    console.log("Laundry is done. Time to fold the clothes!");
+} else {
+    console.log("Time to start Laundry");
+}
+
+console.log("\nfolding clothes...");
+clothesFolded = true;
+
+if (laundryDone && clothesFolded && clothesPutAway){
+    console.log("Great, the laundry process is completely done");
+} else if (laundryDone && clothesFolded){
+    console.log("Laundry is done and folded. Time to put the clothes away!");
+} else if (laundryDone){
+console.log("Laundry is done. Time to fold the clothes");
+} else {
+    console.log("Time to start the laundry.");
+}
+
+console.log("\nputting away clothes...");
+clothesPutAway = true;
+
+if (laundryDone && clothesFolded && clothesPutAway){
+    console.log("Great, the laundry process is completely done!");
+}else if (laundryDone && clothesFolded){
+    console.log("Laundry is done and folded. Time to put the clothes away!");
+}else if(laundryDone){
+console.log("Laundry is done. Time time to fold the clothes!");
+} else {
+    console.log("Time to Start Laundry.");
+}
+
+
+
+// // Define variables for each stage of the laundry process
+// let laundryDone = true;
+// let clothesFolded = true;
+// let clothesPutAway = true;
+
+// // Check all conditions
+// if (laundryDone && clothesFolded && clothesPutAway) {
+//     console.log("Congratulations! The laundry cycle is complete:");
+//     console.log("✅ Laundry is washed");
+//     console.log("✅ Clothes are folded");
+//     console.log("✅ Clothes are put away");
+//     console.log("You can relax now!");
+// } else {
+//     console.log("The laundry process is not complete. Let's check what's left:");
+    
+//     if (!laundryDone) {
+//         console.log("❌ Laundry needs to be washed");
+//     } else {
+//         console.log("✅ Laundry is washed");
+//     }
+    
+//     if (!clothesFolded) {
+//         console.log("❌ Clothes need to be folded");
+//     } else {
+//         console.log("✅ Clothes are folded");
+//     }
+    
+//     if (!clothesPutAway) {
+//         console.log("❌ Clothes need to be put away");
+//     } else {
+//         console.log("✅ Clothes are put away");
+//     }
+// }
+
