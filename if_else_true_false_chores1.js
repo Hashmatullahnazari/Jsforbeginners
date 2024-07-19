@@ -398,45 +398,6 @@
 // // Call the 'checkLaundry' function
 // checkLaundry();
 
-let laundryDone = true;
-let clothesFolded = false;
-let clothesPutAway = false;
-
-if (laundryDone && clothesFolded && clothesPutAway){
-    console.log("Great, the laundry process is completey done");
-} else if (clothesFolded && clothesPutAway){
-    console.log("Laundry is done and folded. Time to put the clothes away!");
-} else if (laundryDone){
-    console.log("Laundry is done. Time to fold the clothes!");
-} else {
-    console.log("Time to start Laundry");
-}
-
-console.log("\nfolding clothes...");
-clothesFolded = true;
-
-if (laundryDone && clothesFolded && clothesPutAway){
-    console.log("Great, the laundry process is completely done");
-} else if (laundryDone && clothesFolded){
-    console.log("Laundry is done and folded. Time to put the clothes away!");
-} else if (laundryDone){
-console.log("Laundry is done. Time to fold the clothes");
-} else {
-    console.log("Time to start the laundry.");
-}
-
-console.log("\nputting away clothes...");
-clothesPutAway = true;
-
-if (laundryDone && clothesFolded && clothesPutAway){
-    console.log("Great, the laundry process is completely done!");
-}else if (laundryDone && clothesFolded){
-    console.log("Laundry is done and folded. Time to put the clothes away!");
-}else if(laundryDone){
-console.log("Laundry is done. Time time to fold the clothes!");
-} else {
-    console.log("Time to Start Laundry.");
-}
 
 
 
