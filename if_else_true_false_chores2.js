@@ -160,61 +160,120 @@
 //   console.log("TIme to start vacuuming. Let's begin with the living room!");
 // }
 
-let shelvesDusted = false;
-let furnitureDusted = false;
-let blindDusted = false;
+// let shelvesDusted = false;
+// let furnitureDusted = false;
+// let blindDusted = false;
 
-console.log("Initial state:");
-if (shelvesDusted && furnitureDusted && blindDusted) {
-  console.log("Excellent! All dusting tasks are complete.");
-} else if (shelvesDusted && furnitureDusted) {
-    console.log("Shelves and furniture are dusted. Time to dust the blinds");
-  }  else if (shelvesDusted) {
-    console.log("shelves are dusted. Let's move on to the furniture!");
-  } else {
-  console.log("Time to start dusting. Let's begin with the shelves!");
-}
+// console.log("Initial state:");
+// if (shelvesDusted && furnitureDusted && blindDusted) {
+//   console.log("Excellent! All dusting tasks are complete.");
+// } else if (shelvesDusted && furnitureDusted) {
+//     console.log("Shelves and furniture are dusted. Time to dust the blinds");
+//   }  else if (shelvesDusted) {
+//     console.log("shelves are dusted. Let's move on to the furniture!");
+//   } else {
+//   console.log("Time to start dusting. Let's begin with the shelves!");
+// }
 
 
-console.log("\nDusting the shelves...");
-shelvesDusted = true;
+// console.log("\nDusting the shelves...");
+// shelvesDusted = true;
 
-console.log("After dusting the shelves:");
-if (shelvesDusted && furnitureDusted && blindDusted) {
-  console.log("Excellent! All dusting tasks are complete.");
-} else if (shelvesDusted && furnitureDusted) {
-  console.log("Shelves and furniture are dusted. Time to dust the blinds");
-} else if (shelvesDusted) {
-  console.log("shelves are dusted. Let's move on to the furniture!");
-}else {
-  console.log("Time to start dusting. Let's begin with shelves!");
-}
+// console.log("After dusting the shelves:");
+// if (shelvesDusted && furnitureDusted && blindDusted) {
+//   console.log("Excellent! All dusting tasks are complete.");
+// } else if (shelvesDusted && furnitureDusted) {
+//   console.log("Shelves and furniture are dusted. Time to dust the blinds");
+// } else if (shelvesDusted) {
+//   console.log("shelves are dusted. Let's move on to the furniture!");
+// }else {
+//   console.log("Time to start dusting. Let's begin with shelves!");
+// }
 
-console.log("\Dusting the furniture...");
-furnitureDusted = true;
+// console.log("\Dusting the furniture...");
+// furnitureDusted = true;
 
-console.log("After dusting the furniture");
-if (shelvesDusted && furnitureDusted && blindDusted) {
-  console.log("Excellent! All dusting tasks are complete.");
-} else if (shelvesDusted && furnitureDusted) {
-  console.log("Shelves and furniture are dusted. Time to dust the blinds!");
-} else if (shelvesDusted) {
-  console.log("shelves are dusted. let's move on to the furniture");
-}else {
-  console.log("Time to start dusting. Let's begin with shelves!");
-}
+// console.log("After dusting the furniture");
+// if (shelvesDusted && furnitureDusted && blindDusted) {
+//   console.log("Excellent! All dusting tasks are complete.");
+// } else if (shelvesDusted && furnitureDusted) {
+//   console.log("Shelves and furniture are dusted. Time to dust the blinds!");
+// } else if (shelvesDusted) {
+//   console.log("shelves are dusted. let's move on to the furniture");
+// }else {
+//   console.log("Time to start dusting. Let's begin with shelves!");
+// }
 
-console.log("\nDusting blinds...");
-blindDusted = true;
+// console.log("\nDusting blinds...");
+// blindDusted = true;
 
-console.log("Final State:");
+// console.log("Final State:");
 
-if (shelvesDusted && furnitureDusted && blindDusted) {
-  console.log("Excellent! All dusting tasks are complete.");
-} else if (shelvesDusted && furnitureDusted) {
-  console.log("Shelves and furniture are dusted. TIme to dust the blinds!");
-} else if (shelvesDusted) {
-  console.log("shelves are dusted let's move on to furniture");
-} else {
-  console.log("Time to start dustin. Let's begin with shelves");
-}
+// if (shelvesDusted && furnitureDusted && blindDusted) {
+//   console.log("Excellent! All dusting tasks are complete.");
+// } else if (shelvesDusted && furnitureDusted) {
+//   console.log("Shelves and furniture are dusted. TIme to dust the blinds!");
+// } else if (shelvesDusted) {
+//   console.log("shelves are dusted let's move on to furniture");
+// } else {
+//   console.log("Time to start dustin. Let's begin with shelves");
+// }
+
+
+// let kitchenMopped = false;
+// let bathroomMopped = false;
+// let entrywayMopped = false;
+
+// console.log("Initial state:");
+// if (kitchenMopped && bathroomMopped && entrywayMopped) {
+//     console.log("Great, all areas have been mopped!");
+// } else if (kitchenMopped && bathroomMopped) {
+//     console.log("Kitchen is mopped. Let's begin with kitchen!");
+// } else if (kitchenMopped) {
+//     console.log("Kitchen is mopped. Let's begin with kitchen!");
+// } else {
+//     console.log("Time to start mopping. Let's start with Kitchen");
+// }
+
+// console.log("\nMopping the kitchen...");
+// kitchenMopped = true;
+
+// console.log("After mopping the kitchen:");
+// if (kitchenMopped && bathroomMopped && entrywayMopped) {
+//     console.log("Great, all areas have been mopped");
+// } else if (kitchenMopped && bathroomMopped) {
+//     console.log("Kitchen and bathroom are mopped. Time to mop the entryway!");
+// } else if (kitchenMopped) {
+//     console.log("kitchen is mopped. Moving on to bathroom!");
+// } else {
+//     console.log("Time to start mopping. Let's start with kitchen");
+// }
+
+// console.log("\nMopping the bathroom...");
+// bathroomMopped = true;
+
+// console.log("After mopping the bathroom:");
+// if (kitchenMopped && bathroomMopped && entrywayMopped) {
+//     console.log("Great, all areas have been mopped!");
+// } else if (kitchenMopped && bathroomMopped) {
+//     console.log("Kitchen and bathroom are mopped. Time to mop the entryway!");
+// } else if (kitchenMopped) {
+//     console.log("Kitchen is mopped. Moving on to the bathroom!");
+// } else {
+//     console.log("TIme to start mopping. Let's begin with the kitchen!");
+// }
+
+
+// console.log("\nMopping the entryway...");
+// entrywayMopped = true;
+
+// console.log("Final State:");
+// if (kitchenMopped && bathroomMopped && entrywayMopped) {
+//     console.log("Great, all the areas have been mopped!");
+// } else if (kitchenMopped && bathroomMopped) {
+//     console.log("Kitchen and bathroom are mopped. Time to mop the entryway!");
+// } else if (kitchenMopped) {
+//     console.log("Kitchen is mopped. Moving on to the bathroom");
+// } else {
+//     console.log("Time to start mopping. Let's begin with the kitchen!");
+// }
