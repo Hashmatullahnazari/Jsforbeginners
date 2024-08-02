@@ -277,3 +277,57 @@
 // } else {
 //     console.log("Time to start mopping. Let's begin with the kitchen!");
 // }
+
+let lawnMowed = false;
+let flowerBedWeeded = false;
+let plantsWatered = false;
+
+if (lawnMowed && flowerBedWeeded && plantsWatered) {
+  console.log("Excellent! All gardening is chores are complete.");
+} else if (lawnMowed && flowerBedWeeded) {
+  console.log("Lawn is mowed and flower bed is weeded.Time to water the plants.");
+}  else if (lawnMowed) {
+  console.log("Lawn is mowed, Let's move on to weeding the flower bed!");
+}else {
+  console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+}
+
+console.log("\nMowing the lawn...");
+lawnMowed = true;
+
+console.log("After mowing the lawn");
+if (lawnMowed && flowerBedWeeded && plantsWatered) {
+  console.log("Excellent! All gardening chores are complete.");
+} else if (lawnMowed && flowerBedWeeded) {
+  console.log("Lawn is mowed and flower bed is weeded. Time to water the plants.");
+} else if (lawnMowed) {
+  console.log("Lawn is mowed. Let's move on to weeding the flower bed!");
+} else {
+  console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+}
+
+if (lawnMowed && flowerBedWeeded && plantsWatered) {
+  console.log("Excellent! All gardening chores are complete.");
+} else if (lawnMowed && flowerBedWeeded) {
+  console.log("Lawn is mowed and flower bed is weeded. Time to water the plants!");
+} else if (lawnMowed) {
+  console.log("Lawn is mowed. Let's move on to weeding the flower bed!");
+} else {
+  console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+}
+
+console.log("\nweeding the flower bed...");
+flowerBedWeeded = true;
+
+console.log("after weeding the flower bed:");
+if (lawnMowed && flowerBedWeeded && plantsWatered) {
+  console.log("Excellent! All gardening chores are complete.");
+} else if (lawnMowed && flowerBedWeeded) {
+  console.log("Lawn is mowed and flower bed is weeded. Tie to water the plants!"); 
+} else if (lawnMowed) {
+  console.log("Lawn is mowed. Let's move on to weeding the flower bed!"); 
+} else {
+  console.log("Time to start gardening. Let's begin by mowing the lawn!");
+}
+
+
