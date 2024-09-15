@@ -3,5 +3,6 @@
         "live-server-extension": true,
         "live-preview-extension": true
     },
-    "liveServer.settings.multiRootWorkspaceName": "Jsforbeginners"
+    "liveServer.settings.multiRootWorkspaceName": "Jsforbeginners",
+    "liveServer.settings.port": 5501
 }

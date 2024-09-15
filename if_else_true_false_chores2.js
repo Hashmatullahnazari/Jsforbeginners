@@ -278,56 +278,198 @@
 //     console.log("Time to start mopping. Let's begin with the kitchen!");
 // }
 
-let lawnMowed = false;
-let flowerBedWeeded = false;
-let plantsWatered = false;
+// let lawnMowed = false;
+// let flowerBedWeeded = false;
+// let plantsWatered = false;
 
-if (lawnMowed && flowerBedWeeded && plantsWatered) {
-  console.log("Excellent! All gardening is chores are complete.");
-} else if (lawnMowed && flowerBedWeeded) {
-  console.log("Lawn is mowed and flower bed is weeded.Time to water the plants.");
-}  else if (lawnMowed) {
-  console.log("Lawn is mowed, Let's move on to weeding the flower bed!");
+// if (lawnMowed && flowerBedWeeded && plantsWatered) {
+//   console.log("Excellent! All gardening is chores are complete.");
+// } else if (lawnMowed && flowerBedWeeded) {
+//   console.log("Lawn is mowed and flower bed is weeded.Time to water the plants.");
+// }  else if (lawnMowed) {
+//   console.log("Lawn is mowed, Let's move on to weeding the flower bed!");
+// }else {
+//   console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+// }
+
+// console.log("\nMowing the lawn...");
+// lawnMowed = true;
+
+// console.log("After mowing the lawn");
+// if (lawnMowed && flowerBedWeeded && plantsWatered) {
+//   console.log("Excellent! All gardening chores are complete.");
+// } else if (lawnMowed && flowerBedWeeded) {
+//   console.log("Lawn is mowed and flower bed is weeded. Time to water the plants.");
+// } else if (lawnMowed) {
+//   console.log("Lawn is mowed. Let's move on to weeding the flower bed!");
+// } else {
+//   console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+// }
+
+// if (lawnMowed && flowerBedWeeded && plantsWatered) {
+//   console.log("Excellent! All gardening chores are complete.");
+// } else if (lawnMowed && flowerBedWeeded) {
+//   console.log("Lawn is mowed and flower bed is weeded. Time to water the plants!");
+// } else if (lawnMowed) {
+//   console.log("Lawn is mowed. Let's move on to weeding the flower bed!");
+// } else {
+//   console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+// }
+
+// console.log("\nweeding the flower bed...");
+// flowerBedWeeded = true;
+
+// console.log("after weeding the flower bed:");
+// if (lawnMowed && flowerBedWeeded && plantsWatered) {
+//   console.log("Excellent! All gardening chores are complete.");
+// } else if (lawnMowed && flowerBedWeeded) {
+//   console.log("Lawn is mowed and flower bed is weeded. Tie to water the plants!"); 
+// } else if (lawnMowed) {
+//   console.log("Lawn is mowed. Let's move on to weeding the flower bed!"); 
+// } else {
+//   console.log("Time to start gardening. Let's begin by mowing the lawn!");
+// }
+
+let trashCollected = false;
+let trashBagged = false;
+let trashTakenOut = false;
+
+console.log("Initial state");
+
+if (trashCollected && trashBagged && trashTakenOut) {
+  console.log("Great! All trash disposal tasks are complete.");
+  
+} else if (trashCollected && trashBagged) {
+  console.log("Trash is colledcted and bagged. Time to take it out!");
+  
+} else if (trashCollected) {
+  console.log("Trash is collected. Let's bag it up!");
+  
+} else {
+  console.log("Time to start the trash disposal process. Let's collect the trash!");
+  
+}
+
+console.log("\ncollecting the trash:");
+trashCollected = true;
+
+if (trashCollected && trashBagged && trashTakenOut) {
+  console.log("Great! All trash disposal tasks are complete.");
+  
+} else if (trashCollected && trashBagged) {
+  console.log("Trash is collected and bagged. Time to take it out.");
+  
+} else if (trashCollected) {
+  console.log("Trash is collected. Let's bag it!");
+  
+} else {
+  console.log("Time to start the trash disposal process. Let's collect the trash!");
+  
+}
+console.log("\nBagging the trash...");
+trashBagged = true;
+
+console.log("After bagging the trash:");
+
+if (trashCollected && trashBagged && trashTakenOut) {
+  console.log("Great! All trash disposal tasks are complete!");
+  
+} else if (trashCollected && trashBagged) {
+  console.log("Trash is collected and bagged. Time to take it out!");
+  
+} else if (trashCollected) {
+  console.log("Trash is collected. Let's bag it!");
+  
+} else {
+  console.log("Time to start the trash disposal process Let's collect the trash!");
+  
+}
+
+console.log("\ntaking out trash...");
+trashTakenOut = true;
+
+console.log("Final state");
+if (trashCollected && trashBagged && trashTakenOut) {
+  console.log("Great! All the trash disposal tasks are complete!");
+} else if (trashCollected && trashBagged) {
+  console.log("Trash is collected and bagged. Time to take it out!");
+  
+} else if (trashCollected) {
+  console.log("Trah is collected. Let's bag it!");
+  
 }else {
-  console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+  console.log("TIme to start the trash disposal proess Let's collecct the trash!");
 }
 
-console.log("\nMowing the lawn...");
-lawnMowed = true;
 
-console.log("After mowing the lawn");
-if (lawnMowed && flowerBedWeeded && plantsWatered) {
-  console.log("Excellent! All gardening chores are complete.");
-} else if (lawnMowed && flowerBedWeeded) {
-  console.log("Lawn is mowed and flower bed is weeded. Time to water the plants.");
-} else if (lawnMowed) {
-  console.log("Lawn is mowed. Let's move on to weeding the flower bed!");
+let windowsWashed = false;
+let windowsDried = false;
+let blindsCleaned = false;
+
+console.log("Initial State:");
+if (windowsWashed && windowsDried && blindsCleaned) {
+  console.log("Excellent! All window cleaning tasks are complete.");
+} else if (windowsWashed && windowsDried) {
+  console.log("Windows are washed and dried. Time to clean the blinds!");
+  
+} else if (windowsWashed) {
+  console.log("Windows are washed. Let's dry them now!");
+  
 } else {
-  console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+  console.log("Time to start cleaning windows. Let's begin by washing them!");
+  
 }
 
-if (lawnMowed && flowerBedWeeded && plantsWatered) {
-  console.log("Excellent! All gardening chores are complete.");
-} else if (lawnMowed && flowerBedWeeded) {
-  console.log("Lawn is mowed and flower bed is weeded. Time to water the plants!");
-} else if (lawnMowed) {
-  console.log("Lawn is mowed. Let's move on to weeding the flower bed!");
+console.log("\nWashing the windows...");
+windowsWashed = true;
+
+console.log("After washing the windows");
+if (windowsWashed && windowsDried && blindsCleaned) {
+  console.log("Excellent! All windows Cleaning tasks are complete.");
+  
+} else if (windowsWashed && windowsDried){
+  console.log("Windows are washed and dried. Time to clean blinds!");
+  
+} else if (windowsWashed) {
+console.log("Windows are washed. Let's dry them now!");
+
 } else {
-  console.log("Time to start gardening. Let's begin by mowing the Lawn!");
+  console.log("Time to start cleaning windows. Let's begin by washing them!");
+  
 }
 
-console.log("\nweeding the flower bed...");
-flowerBedWeeded = true;
+console.log("\nDrying the windows...");
+windowsDried = true;
 
-console.log("after weeding the flower bed:");
-if (lawnMowed && flowerBedWeeded && plantsWatered) {
-  console.log("Excellent! All gardening chores are complete.");
-} else if (lawnMowed && flowerBedWeeded) {
-  console.log("Lawn is mowed and flower bed is weeded. Tie to water the plants!"); 
-} else if (lawnMowed) {
-  console.log("Lawn is mowed. Let's move on to weeding the flower bed!"); 
+console.log("After drying the windows:");
+if (windowsWashed && windowsDried && blindsCleaned) {
+  console.log("Excellent! All window cleaning tasks are complete.");
+  
+} else if (windowsWashed && windowsDried) {
+  console.log("Window are washed and dried. Time to clean the blinds");
+  
+} else if (windowsWashed){
+console.log("Windows are washed. Let's dry them now!");
 } else {
-  console.log("Time to start gardening. Let's begin by mowing the lawn!");
+  console.log("Time to start cleaning windows. Let's begin by washing then!"); 
 }
 
+
+console.log("\nCleaning the blinds");
+blindsCleaned = true;
+
+console.log("Final State");
+if (windowsWashed && windowsDried && blindsCleaned) {
+  console.log("Excellen! All window cleaning tasks are compelete.");
+  
+} else if (windowsWashed && windowsDried) {
+  console.log("winodows are washed and dried. Time to clean the blinds!");
+  
+} else if (windowsWashed) {
+  console.log("windows are washed. Let's dried them now!");
+  
+} else {
+  console.log("Time to start cleaning windows. Let's begin by washing them!");
+  
+}
 
