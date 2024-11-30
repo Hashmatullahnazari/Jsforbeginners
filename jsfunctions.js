@@ -45,3 +45,30 @@ function checkEmailStatus(inboxCleared){
 }
 console.log(checkEmailStatus(false));
 console.log(checkEmailStatus(true));
+
+
+
+
+function checkBookReadingStatus(bookRead) {
+if(bookRead)  {
+return"Congratulation! You've finished reading a book. Knowledge gained!";
+} else {
+return"Time to pick up that book and start reading. Expand your mind!";
+}
+}
+
+console.log(checkBookReadingStatus(true));
+console.log(checkBookReadingStatus(false));
+
+
+function checkMeditationStatus(meditation){
+  if(meditation){
+    return"Great Job! You have taken the time to calm your mind today."
+  }else 
+  {
+    return"consider spending a few minutes meditating. Your mental health matters!"
+  }
+}
+console.log(checkMeditationStatus(true));
+console.log(checkMeditationStatus(false));
+
