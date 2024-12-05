@@ -72,3 +72,17 @@ function checkMeditationStatus(meditation){
 console.log(checkMeditationStatus(true));
 console.log(checkMeditationStatus(false));
 
+
+
+
+function checkCarWashStatus(carWashed){
+  if (carWashed){
+    return"Your car is sparkling clean! Great job on maintaining its appearance.";
+  } else
+    return"Your car could use a wash. Time to make it shine!";
+}
+
+
+console.log(checkCarWashStatus(false));
+console.log(checkCarWashStatus(true));
+
